@@ -35,7 +35,7 @@ Parameters & Models
 • ARIMA (AutoRegressive Integrated Moving Average) model.
 • Applied time series techniques such as lag features and rolling averages to forecast
 retail sales with seasonal patterns
-• Evaluation metrics (assumed): MAE or RMSE.
+• Evaluation metrics (assumed): MAE or WMAE.
 
 
 
