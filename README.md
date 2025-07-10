@@ -29,20 +29,22 @@ Key Steps Taken
 • Inspected null values, unique store types, and departments.
 • Engineered new features to better capture department-store dynamics.
 • Planned ARIMA modeling using statsmodels to capture trends and seasonality.
+• Final predicted vaues save dto
 
 
 Parameters & Models
 • ARIMA (AutoRegressive Integrated Moving Average) model.
 • Applied time series techniques such as lag features and rolling averages to forecast
 retail sales with seasonal patterns
-• Evaluation metrics (assumed): MAE or WMAE.
+• Evaluation metrics: MAE or WMAE.
+• Final predicted values on test dataset are saved in arima_test_predictions.csv
 
 
 
 Challenges Addressed
 • Limited Event Data: Focused on high-impact but infrequent events like Christmas.
 • Markdowns: Integrated markdown periods and their effects on sales.
-
+•Some stores and departments in test datases were not present in train , so they cant be predicted hence final csv contains some vacant spaces.
 
 Conclusion
 A structured approach was followed to forecast department-level sales at Walmart us-
