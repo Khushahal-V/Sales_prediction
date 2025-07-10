@@ -13,9 +13,12 @@ but have significant impact on sales. The dataset includes holiday markdown even
 known to affect demand patterns, making it important to incorporate these variables in
 the forecasting model.
 
+  
 
 
-Data Sources Used
+
+Data Sources Used  
+
 • train.csv: Historical weekly sales data by store and department  
 
 • test.csv: Data for which predictions are required  
@@ -28,7 +31,10 @@ Data Sources Used
 
 
 
-Key Steps Taken
+    
+
+Key Steps Taken  
+
 • Loaded all datasets using pandas.  
 
 • Combined store and department into a unique identifier: Store Dept  
@@ -42,7 +48,10 @@ Key Steps Taken
 
 
 
-Parameters & Models
+    
+
+Parameters & Models  
+
 • ARIMA (AutoRegressive Integrated Moving Average) model  
 
 • Applied time series techniques such as lag features and rolling averages to forecast
@@ -54,8 +63,10 @@ retail sales with seasonal patterns
 
 
 
+  
 
-Challenges Addressed
+Challenges Addressed  
+
 • Limited Event Data: Focused on high-impact but infrequent events like Christmas  
 
 • Markdowns: Integrated markdown periods and their effects on sales  
@@ -63,7 +74,8 @@ Challenges Addressed
 •Some stores and departments in test datases were not present in train , so they cant be predicted hence final csv contains some vacant spaces  
 
 
-Conclusion
+Conclusion  
+
 A structured approach was followed to forecast department-level sales at Walmart us-
 ing historical trends, markdown events, and time series modeling. By incorporating
 retail-specific patterns and using ARIMA, the model is well-positioned to help strategic
