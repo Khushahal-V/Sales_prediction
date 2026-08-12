@@ -14,7 +14,7 @@ Retailers need accurate weekly sales forecasts per store and department to plan 
 
 ## Evaluation Metric — WMAE
 
-All models are evaluated using **Weighted Mean Absolute Error (WMAE)**, the metric used in the original Kaggle competition:
+All models are evaluated using **Weighted Mean Absolute Error (WMAE)**
 
 ```python
 def wmae(y_true, y_pred, is_holiday):
